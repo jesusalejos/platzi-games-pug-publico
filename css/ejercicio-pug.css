@@ -45,15 +45,31 @@ header a {
 .intro {
 	background-color: #EEF1F7;
 	width: 100%;
-	height: 400px;
+	height: 100%;
 	display: flex;
-	padding: 40px 0 0 40px;
+	
 }
 
+
+.intro__imagen {
+	width: 100%;
+	height: auto;
+	margin-right: 40px;
+	background-color: #d1d4db;
+	
+}
+
+.intro__contenido  {
+	max-width: 90%;
+	font-size: 20px;
+	line-height: 40px;
+	margin: 15px 0 30px 0;
+}
 .intro__imagen img{
 	width: 350px;
 	height: auto;
 	margin-right: 40px;
+	background-color: #8898c0;
 }
 
 .intro__contenido p {
